@@ -105,6 +105,7 @@ void zustandsautomat() {
 	// Automat läuft in einer Endlosschleife.
 	while (true) {
 		// Beschreibung des Zustandsautomaten
+		stock = aktueller_zustand;
 		switch (aktueller_zustand) {
 			// ************************************************************************
 			// TODO: Jeden Zustand in einem eigenen case implementieren
